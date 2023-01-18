@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e51a78-483b-4e00-a921-640de387c24b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_BiConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_BiFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_BiPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/functionalinterface/_Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/imperative/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/streams/_Stream.java" afterDir="false" />
+    <list default="true" id="d7e51a78-483b-4e00-a921-640de387c24b" name="Changes" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/callback/_Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/combinatorpattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/combinatorpattern/CustomerRegistrationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/combinatorpattern/CustomerValidatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/combinatorpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/lambdas/Lambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ipap/optionals/_Optional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ipap/imperative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ipap/imperative/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ipap/streams/_Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ipap/streams/_Stream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,31 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ipap.imperative" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._Stream">
-    <configuration name="_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ipap.functionalinterface._BiConsumer" />
+  <component name="RunManager" selected="Application.Lambdas">
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ipap.lambdas.Lambdas" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ipap.functionalinterface.*" />
+          <option name="PATTERN" value="com.ipap.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ipap.functionalinterface._Consumer" />
+    <configuration name="_Callback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ipap.callback._Callback" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ipap.functionalinterface.*" />
+          <option name="PATTERN" value="com.ipap.callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ipap.functionalinterface._Predicate" />
+    <configuration name="_Optional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ipap.optionals._Optional" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ipap.functionalinterface.*" />
+          <option name="PATTERN" value="com.ipap.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ipap.functionalinterface._Supplier" />
+    <configuration name="com.ipap.combinatorpattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ipap.combinatorpattern.Main" />
       <module name="java-functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ipap.functionalinterface.*" />
+          <option name="PATTERN" value="com.ipap.combinatorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="Application._Callback" />
+        <item itemvalue="Application.com.ipap.combinatorpattern.Main" />
         <item itemvalue="Application._Stream" />
-        <item itemvalue="Application._Supplier" />
-        <item itemvalue="Application._Predicate" />
-        <item itemvalue="Application._BiConsumer" />
-        <item itemvalue="Application._Consumer" />
+        <item itemvalue="Application._Optional" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +150,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673983796023</updated>
-      <workItem from="1673983797164" duration="9820000" />
+      <workItem from="1673983797164" duration="10092000" />
+      <workItem from="1674071440773" duration="8295000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1673994004167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673994004167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
 </project>

@@ -1,7 +1,5 @@
 package com.ipap.streams;
 
-import com.ipap.imperative.Main;
-
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.IntConsumer;
@@ -53,6 +51,15 @@ public class _Stream {
                 .map(personStringFunction)
                 .mapToInt(length)
                 .forEach(println);
+
+        // allMatch
+        System.out.println("\n----- allMatch -----");
+        boolean containsOnlyFemales = people.stream().allMatch(person -> FEMALE.equals(person.gender));
+        System.out.println(containsOnlyFemales);
+
+        // anyMatch
+        System.out.println("\n----- anyMatch -----");
+        System.out.println(people.stream().anyMatch(person -> FEMALE.equals(person.gender)));
     }
 
     static class Person {

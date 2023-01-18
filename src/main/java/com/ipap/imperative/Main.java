@@ -1,9 +1,9 @@
 package com.ipap.imperative;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 import static com.ipap.imperative.Main.Gender.FEMALE;
 import static com.ipap.imperative.Main.Gender.MALE;
@@ -37,11 +37,14 @@ public class Main {
         System.out.println("\n----- Declarative approach -----");
         people.stream()
                 .filter(person -> FEMALE.equals(person.gender))
+                // .sorted((p1, p2) -> p1.getName().compareTo(p2.getName()))
+                .sorted(Comparator.comparing(Person::getName))
                 .forEach(System.out::println);
 
         // Predicate (holds a boolean value) - functional interface
+        System.out.println("\n----- Predicate -----");
         Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender);
-
+        System.out.println(personPredicate.test(new Person("Mike", MALE)));
 
     }
 
@@ -52,6 +55,10 @@ public class Main {
         public Person(String name, Gender gender) {
             this.name = name;
             this.gender = gender;
+        }
+
+        public String getName() {
+            return name;
         }
 
         @Override
